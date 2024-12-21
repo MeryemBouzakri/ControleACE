@@ -1,0 +1,19 @@
+type Car{
+    id : String
+    model : String
+    color : String
+    matricule : String
+    price : Float
+}
+type CarDto{
+    model : String
+    color : String
+    matricule : String
+    price : Float
+}
+input CarInput {
+    model: String!
+    color: String!
+    matricul: String!
+    price: Float!
+}
